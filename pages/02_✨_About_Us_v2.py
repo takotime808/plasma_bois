@@ -9,6 +9,8 @@ with col1:
     st.markdown("## Me ##")
     st.image("./images/favicon.png")#, width=200)
     st.markdown("Lead Plasma Research Physicist")
+    st.write("/ Senior Director of Nuclear Power and Artificial Intelligence")
+
 
 with col2:
     st.markdown("## MiniMe ##")

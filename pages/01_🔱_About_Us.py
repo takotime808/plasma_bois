@@ -9,7 +9,7 @@ st.set_page_config(
 tab1, tab2, tab3 = st.tabs(["Me", "MiniMe", "MiniMe-MiniMe / MiniYou"])
 
 with tab1:
-   st.header("Lead Plasma Research Physicist")
+   st.header("Senior Director of Nuclear Power and Artificial Intelligence")
    st.image("./images/favicon.png", width=200)
    st.markdown("The title kind of says it all...", unsafe_allow_html=True)
 
@@ -24,3 +24,6 @@ with tab3:
 
 with tab3:
    st.markdown("maybe one day...", unsafe_allow_html=True)
+
+with tab1:
+   st.markdown('Recently promoted from "Lead Plasma Research Physicist"')
